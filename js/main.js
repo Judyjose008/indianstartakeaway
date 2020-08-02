@@ -67,6 +67,7 @@
 		$('.carousel-testimony').owlCarousel({
 			center: true,
 			loop: true,
+			autoplay: true,
 			items:1,
 			margin: 30,
 			stagePadding: 0,
@@ -219,7 +220,6 @@
 	var OnePageNav = function() {
 		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
 		 	e.preventDefault();
-
 		 	var hash = this.hash,
 		 			navToggler = $('.navbar-toggler');
 		 	$('html, body').animate({
