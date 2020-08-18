@@ -46,7 +46,9 @@
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
-	    animateIn: 'fadeIn',
+		animateIn: 'fadeIn',git
+		mouseDrag: false,
+		touchDrag: true,
 	    nav:true,
 	    dots: false,
 	    autoplayHoverPause: false,
