@@ -1,11 +1,8 @@
 git add .
 
-
-
-
 git commit -m "Regular automated push "
 
-echo " commited "
+echo "commited "
 
 git push
 
