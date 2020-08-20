@@ -19,4 +19,3 @@ document.getElementById("contactForm").addEventListener("submit", (e)=> {
         }, 2000);
     });        
 });
-git
