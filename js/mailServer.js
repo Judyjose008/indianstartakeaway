@@ -12,7 +12,8 @@ document.getElementById("contactForm").addEventListener("submit", (e)=> {
                 Customer Email - ${document.getElementById("customerEmail").value} <br>
                 Customer Message - ${document.getElementById("customerMessage").value}`
     }).then( () => {
-        document.getElementById("submitButton").value = "Message sent!";
+        document.getElementById("contactForm").reset();
+        document.getElementById("successAlert").style.display = "block";
         setTimeout( ()=> {
             document.getElementById("submitButton").value = "Send Message";
             document.getElementById("submitButton").disabled = false;
