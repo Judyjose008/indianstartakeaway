@@ -9789,3 +9789,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  
+  .uber-logo{
+    padding: 5px;
+    background-color: #000000c2;
+    border-radius: 5px;
+  }
