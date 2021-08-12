@@ -8,9 +8,7 @@ document.getElementById("contactForm").addEventListener("submit", (e)=> {
         To : 'indianstartakeaway@gmail.com',
         From : document.getElementById("customerEmail").value,
         Subject : "Contact message from customer",
-        Body : `Customer Name - ${document.getElementById("customerName").value} <br> 
-                Customer Email - ${document.getElementById("customerEmail").value} <br>
-                Customer Message - ${document.getElementById("customerMessage").value}`
+        Body : 'somthing'
     }).then( () => {
         document.getElementById("contactForm").reset();
         document.getElementById("successAlert").style.display = "block";
